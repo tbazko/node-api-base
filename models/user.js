@@ -4,4 +4,4 @@ var userSchema = new Schema({
 
 });
 
-export default mongoose.model('user', movieSchema);
+export default mongoose.model('user', userSchema);

@@ -1,12 +1,12 @@
+"use strict";
 import express from 'express';
 import morgan from 'morgan';
-import mongoose from 'mongoose';
+// import mongoose from 'mongoose';
 import router from './router';
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/');
+// mongoose.connect('mongodb://localhost/');
 
-// Initialize http server
 const app = express();
 
 app.use(morgan('combined'));
